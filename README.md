@@ -2,7 +2,13 @@
 
 ## Install
 
+Download from git repo
+
     git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.11.3
+    
+Add the following to `~/.zshrc`
+
+    . $HOME/.asdf/asdf.sh
     
 ## Commands
 
