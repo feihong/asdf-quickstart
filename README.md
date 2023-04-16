@@ -10,6 +10,15 @@ Add the following to `~/.zshrc`
 
     . $HOME/.asdf/asdf.sh
     
+## Example
+
+Download and install Node.js
+
+    asdf plugin add nodejs
+    asdf install nodejs latest
+    asdf global nodejs latest # running `node` will run the latest version
+    asdf list nodejs # see what versions you have
+
 ## Commands
 
 Update asdf to the latest stable release
