@@ -49,9 +49,13 @@ List the Elixir versions you have installed
 
     asdf list elixir
 
-List all nodejs versions that are available
+List all Node.js versions that are available
 
     asdf list all nodejs
+
+Uninstall version 19.8.1 of Node.js
+
+    asdf uninstall nodejs 19.8.1
     
 ## Links
 
