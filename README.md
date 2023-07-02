@@ -48,6 +48,10 @@ Set the Elixir global version to the latest version
 List the Elixir versions you have installed
 
     asdf list elixir
+
+List all nodejs versions that are available
+
+    asdf list all nodejs
     
 ## Links
 
