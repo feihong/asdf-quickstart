@@ -4,7 +4,7 @@
 
 Download from git repo
 
-    git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.11.3
+    git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.12.0
     
 Add the following to `~/.zshrc`
 
@@ -24,6 +24,10 @@ Download and install Node.js
 Update asdf to the latest stable release
 
     asdf update
+
+Show version of asdf
+
+    asdf version
 
 See what plugins you have installed
 
