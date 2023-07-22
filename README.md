@@ -40,6 +40,10 @@ See all available plugins
 Add the Elixir plugin
 
     asdf plugin add elixir
+
+Remove the Elixir plugin
+
+    asdf plugin remove elixir
     
 Install the latest version of Elixir
 
