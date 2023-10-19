@@ -4,7 +4,7 @@
 
 Download from git repo
 
-    git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.12.0
+    git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.13.1
     
 Add the following to `~/.zshrc`
 
