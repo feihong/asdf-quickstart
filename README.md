@@ -4,11 +4,11 @@
 
 Download from git repo
 
-    git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.13.1
-    
-Add the following to `~/.zshrc`
+    brew install asdf
 
-    . $HOME/.asdf/asdf.sh
+Add to `~/.zshrc`
+
+    export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
     
 ## Example
 
@@ -21,9 +21,9 @@ Download and install Node.js
 
 ## Commands
 
-Update asdf to the latest stable release
+Update asdf to latest version
 
-    asdf update
+    brew upgrade asdf
 
 Show version of asdf
 
@@ -37,9 +37,9 @@ See all available plugins
 
     asdf plugin list all
     
-Add the Elixir plugin
+Add the Python plugin
 
-    asdf plugin add elixir
+    asdf plugin add python
 
 Remove the Elixir plugin
 
@@ -47,19 +47,19 @@ Remove the Elixir plugin
     
 Install the latest version of Elixir
 
-    asdf install elixir latest
+    asdf install python latest
     
-Set the Elixir global version to the latest version
+Set the Python global version to the latest version
 
-    asdf global elixir latest
+    asdf set -u python latest
     
-List the Elixir versions you have installed
+List the Python versions you have installed
 
-    asdf list elixir
+    asdf list python
 
-List all Node.js versions that are available
+List all Python versions that are available
 
-    asdf list all nodejs
+    asdf list all python
 
 Uninstall version 19.8.1 of Node.js
 
@@ -67,4 +67,4 @@ Uninstall version 19.8.1 of Node.js
     
 ## Links
 
-- [Official download](https://asdf-vm.com/guide/getting-started.html#official-download)
+- [asdf getting started](https://asdf-vm.com/guide/getting-started.html)
